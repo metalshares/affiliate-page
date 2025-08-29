@@ -1,0 +1,13 @@
+{
+  "name": "affiliate-landing-page",
+  "version": "1.0.0",
+  "description": "A lightweight, scrollable landing page optimized for affiliate conversions across multiple networks including Precious Metals, ClickBank, Amazon Associates, and CJ Affiliate",
+  "scripts": {
+    "dev": "vite src --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
