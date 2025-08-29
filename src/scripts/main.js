@@ -96,8 +96,8 @@ function updateMetalPrices() {
         const silverChange = (Math.random() * 0.5 - 0.25).toFixed(2);
         
         // Get current prices
-        const currentGold = parseFloat(goldPriceElement.textContent.replace(', '').replace(',', ''));
-        const currentSilver = parseFloat(silverPriceElement.textContent.replace(', '').replace(',', ''));
+        const currentGold = parseFloat(goldPriceElement.textContent.replace(/,/g, ''));
+        const currentSilver = parseFloat(silverPriceElement.textContent.replace(/,/g, ''));
         
         // Calculate new prices
         const newGold = (currentGold + parseFloat(goldChange)).toFixed(2);
